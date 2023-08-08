@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-div {
+        @apply flex flex-col;
+    }
+    .input {
+        @apply border border-[hsl(229,24%,87%)] rounded p-1 md:p-1.5 focus:outline-0;
+    }
+    .label {
+        @apply text-[#001e4c] font-bold text-sm;
+    }
+    .nextBtn{
+        @apply bg-[#03295a] hover:bg-[#02387e] px-4 py-2 text-white rounded md:absolute md:bottom-0 md:right-0
+    }
+    .previusBtn{
+        @apply hover:text-[#03295a] font-bold text-gray-400 px-4 py-2 md:absolute md:bottom-0 md:left-0 
+    }
+}

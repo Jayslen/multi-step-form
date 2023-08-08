@@ -1,0 +1,29 @@
+[
+  {
+    "suscription": "Arcade",
+    "icon": "../src/assets/icon-arcade.svg",
+    "id": "arcade-plan",
+    "price": {
+      "monthly": 9,
+      "yearly": 90
+    }
+  },
+  {
+    "suscription": "Advance",
+    "icon": "../src/assets/icon-advanced.svg",
+    "id": "advance-plan",
+    "price": {
+      "monthly": 12,
+      "yearly": 120
+    }
+  },
+  {
+    "suscription": "Pro",
+    "icon": "../src/assets/icon-pro.svg",
+    "id": "pro-plan",
+    "price": {
+      "monthly": 15,
+      "yearly": 150
+    }
+  }
+]
